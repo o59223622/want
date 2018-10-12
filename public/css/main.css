@@ -1,0 +1,135 @@
+body {
+background-color :#ffffff;
+margin:0;
+padding:0;
+width:980px;
+margin:0 auto;
+}
+
+
+.square_btn {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #ff0000;
+    border: solid 1px #ff0000;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    font-size: 20px;
+}
+
+.square_btn:active {
+    border: solid 1px #ff0000;
+    background: #f00000;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+
+.goods_btn {
+    position: center;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    
+   
+    
+    border: solid 1px #ff0000;/*���F*/
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.goods_btn:active {/*�������Ƃ�*/
+    border: solid 1px #ff0000;
+    box-shadow: none;
+    text-shadow: none;
+}
+.wantlist_btn {
+  position: relative;
+  margin: 2em 0 2em 40px;
+  padding: 15px;
+  background: #fff0c6;
+  border-radius: 30px;
+}
+
+.wantlist_btn:before{
+  content: "";
+  position: absolute;
+  left: -38px;
+  width: 13px;
+  height: 12px;
+  bottom: 0;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+
+.wantlist_btn:after{
+  content: "";
+  position: absolute;
+  left: -24px;
+  width: 20px;
+  height: 18px;
+  bottom: 3px;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+
+.wantlist_btn p {
+  margin: 0; 
+    padding: 0;
+}
+#header {
+  text-align: left;
+  /*height: 160px; */
+  margin: 0;  
+  padding: 0; 
+}
+
+#main {
+  width:720px;
+  min-height:500px;
+  height:auto;
+  background-color: #ffffff;
+  margin-top:10px;
+}
+
+#side {
+  width:250px;
+  min-height:500px;
+  height:auto ;
+  /*background-color:#009b9f;*/
+  float:right;
+  margin-top:10px;
+}
+
+
+#footer {
+  text-align: center;
+  height:100px;
+  /*background-color:#009b9f;*/
+  margin-top:10px;
+}
+
+#toptop{
+  font-size: 35px;
+
+}
+
+
+
+
+ul, ol {
+  color: #1e366a;
+  border-top: solid #1e366a 1px;/*��̃{�[�_�[*/
+  border-bottom: solid #1e366a 1px;/*���̃{�[�_�[*/
+  padding: 0.5em 0 0.5em 1.5em;
+}
+
+ul li, ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
